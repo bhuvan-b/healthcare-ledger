@@ -28,7 +28,7 @@ export default function HospSignup() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Container component="main" maxWidth="xs">
+      <Container component="main" maxWidth="xs" sx={{ pb: 10 }}>
         <CssBaseline />
         <Box
           sx={{
@@ -144,8 +144,8 @@ export default function HospSignup() {
             </Button>
             <Grid container justifyContent="flex-end">
               <Grid item>
-                <Typography component={Link} to="/login" variant="body2">
-                  Already have an account? Sign in
+                <Typography component={Link} to="/hosplogin" variant="body2">
+                  Already Registered? Sign in
                 </Typography>
               </Grid>
             </Grid>
@@ -158,7 +158,6 @@ export default function HospSignup() {
             </Grid>
           </Box>
         </Box>
-        {/* <Copyright sx={{ mt: 5 }} /> */}
       </Container>
     </ThemeProvider>
   );

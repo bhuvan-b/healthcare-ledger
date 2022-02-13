@@ -1,0 +1,21 @@
+.health-card {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    background-color: rgb(130, 164, 194);
+    border-radius: 7px;
+}
+
+.headdingwh{
+    color: white;
+}
+
+.health-card > * {
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.details {
+    text-align: justify;
+}

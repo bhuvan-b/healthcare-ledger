@@ -5,7 +5,6 @@ import CssBaseline from "@mui/material/CssBaseline";
 import TextField from "@mui/material/TextField";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
-// import Link from "@mui/material/Link";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
@@ -46,16 +45,7 @@ export default function SignIn() {
                         Sign in
                     </Typography>
                     <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
-                        <TextField
-                            margin="normal"
-                            required
-                            fullWidth
-                            id="email"
-                            label="Email Address"
-                            name="email"
-                            autoComplete="email"
-                            autoFocus
-                        />
+                        <TextField margin="normal" required fullWidth id="id" label="Hospital ID" name="id" autoFocus />
                         <TextField
                             margin="normal"
                             required
@@ -70,13 +60,13 @@ export default function SignIn() {
                         <Button type="submit" fullWidth variant="contained" sx={{ mt: 3, mb: 2 }}>
                             Sign In
                         </Button>
-                        {/* <Grid container>
+                        <Grid container>
                             <Grid item>
-                                <Typography component={Link} to="/signup" variant="body2">
-                                    {"Don't have an account? Sign Up"}
+                                <Typography component={Link} to="/hospsignup" variant="body2">
+                                    {"Not registered? Sign Up"}
                                 </Typography>
                             </Grid>
-                        </Grid> */}
+                        </Grid>
                         <Grid container>
                             <Grid item>
                                 <Typography component={Link} to="/" variant="body2">

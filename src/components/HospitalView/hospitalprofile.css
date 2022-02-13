@@ -1,0 +1,24 @@
+.profile-icon {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.profile-box {
+    background-color: rgb(89, 149, 206);
+    height: 600px;
+    /* border-radius: 8%; */
+}
+
+.iconandtext {
+    padding-top: 10px;
+    /* margin: 10px; */
+}
+
+.iconandtext > * {
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    /* padding: 20px; */
+}

@@ -1,0 +1,42 @@
+.profile-icon {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.profile-box {
+    background-color: rgb(89, 149, 206);
+    height: 600px;
+    border-radius: 7px;
+}
+
+.iconandtext {
+    padding-top: 10px;
+    /* margin: 10px; */
+}
+
+.iconandtext > * {
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    /* padding: 20px; */
+}
+
+/* 
+.profile-box {
+    background-color: rgb(130, 179, 202);
+    /* margin: 10px; */
+    /* align-items: center; */
+    /* text-align: center; */
+/* }
+
+.profile-div {
+    align-items: center;
+    margin: 20px;
+    /* padding: 10px; */
+/* } */
+
+/* .profile-box-icon {
+    align-items: center;
+    text-align: center; */ 
